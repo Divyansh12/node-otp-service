@@ -84,7 +84,7 @@ router.post('/phone/otp', async (req, res, next) => {
   }
 
   const {phone_number,type} = req.body;
-  
+
   let phone_message
 
   if(!phone_number){
@@ -152,7 +152,6 @@ router.post('/phone/otp', async (req, res, next) => {
   //Send response back to the client if the message is sent
   publishTextPromise.then(
       function (data) {
-        console.log(data)
           return res.send({"Status":"Success","Details":encoded});
       }).catch(
       function (err) {
