@@ -1,0 +1,34 @@
+{
+  "name": "node-js-otp",
+  "version": "1.0.0",
+  "description": "Basic OTP service in NodeJs using express",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "server": "nodemon app.js",
+    "dev": "npm run server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.709.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "custom-id": "^1.2.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "helmet": "^3.23.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.4.8",
+    "nodemon": "^2.0.4",
+    "otp-generator": "^1.1.0",
+    "pg": "^8.2.1",
+    "sequelize": "^5.21.12",
+    "sequelize-cli": "^5.5.1",
+    "swagger-jsdoc": "^4.0.0",
+    "swagger-ui-express": "^4.1.4",
+    "tls": "0.0.1"
+  }
+}
