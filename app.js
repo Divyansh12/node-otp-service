@@ -17,7 +17,8 @@ const express = require('express');
 const path = require('path');
 const helmet = require('helmet');
 const logger = require('morgan');
-
+var os = require("os");
+var hostname = os.hostname();
 const app = express();
 
 const port = process.env.PORT || 4500
@@ -56,7 +57,7 @@ const swaggerDefinition = {
     version: '1.0.0',
     description: 'Documentation for Node-Js OTP service API',
   },
-  host: 'localhost:4500',
+  host: 'node-otp-service.herokuapp.com',
   basePath: '/api/v1/',
 };
 const options = {
