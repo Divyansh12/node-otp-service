@@ -23,7 +23,7 @@
     "morgan": "^1.10.0",
     "nodemailer": "^6.4.8",
     "nodemon": "^2.0.4",
-    "otp-generator": "^1.1.0",
+    "otp-generator": "^3.0.0",
     "pg": "^8.2.1",
     "sequelize": "^5.21.12",
     "sequelize-cli": "^5.5.1",
